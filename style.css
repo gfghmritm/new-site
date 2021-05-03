@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+body{
+    background-color:#212529;
+}
+.social_icons i{
+    color:#fff;
+    cursor:pointer;
+    margin-left:1rem;
+}
+.footer-social-icons i{
+    cursor:pointer;
+    color:#000;
+    margin-left:1rem;
+}
+.footer-social-icons i:hover{
+    color:#fff;
+}
+
+#main_image{
+    opacity:1;
+}
+#main_image::after{
+    height:100px;
+    width:400px;
+    color:#000;
+}
+.footer_links{
+    padding-left:0;
+    list-style: none;
+}
+.bg-green{
+    background-color:#1C7900;
+    color:#fff;
+}
+.text-black{
+    color:#000;
+}
+.bold{
+    font-weight:bolder;
+}
+.size_large{
+    font-size: 20px;
+}
+.demo{
+    color:rgb(134, 255, 171);
+}
